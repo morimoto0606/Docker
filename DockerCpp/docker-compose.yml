@@ -2,7 +2,6 @@ version: '3.3'
 services:
   dev:
     build: .
+    container_name: docker-cpp
     volumes:
-      - type: bind
-        source: ./source
-        target: /root/dev/source
+      - /Users/morimoto/Public/GitHub/procon/atcoder:/workspace/src

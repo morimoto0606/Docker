@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  dev:
+    build: .
+    container_name: cpp_for_procon
+    volumes:
+      - /Users/morimoto/Public/GitHub/procon/atcoder:/workspace/src
